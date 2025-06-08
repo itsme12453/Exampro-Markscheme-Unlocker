@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Exampro Markscheme Unlocker",
+  "version": "1.0",
+  "description": "Shows markscheme in exampros where markscheme is disabled",
+  "permissions": ["scripting", "tabs", "webNavigation"],
+  "host_permissions": ["*://*.exampro.net/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.exampro.net/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
