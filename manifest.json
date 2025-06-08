@@ -3,6 +3,11 @@
   "name": "Exampro Markscheme Unlocker",
   "version": "1.0",
   "description": "Shows markscheme in exampros where markscheme is disabled",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
   "permissions": ["scripting", "tabs", "webNavigation"],
   "host_permissions": ["*://*.exampro.net/*"],
   "background": {
