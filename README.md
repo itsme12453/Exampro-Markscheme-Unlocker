@@ -1,4 +1,4 @@
-# Exampro-Markscheme-Unlocker — Installation Guide
+# Exampro Markscheme Unlocker — Installation Guide
 
 This guide will help you install the **Exampro-Markscheme-Unlocker** Chrome extension manually on your browser.
 
